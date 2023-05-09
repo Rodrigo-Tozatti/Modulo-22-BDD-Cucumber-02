@@ -1,0 +1,29 @@
+{
+  "name": "modulo-22-bdd-cucumber-02",
+  "version": "1.0.0",
+  "description": "Modulo 22 - Cypress BDD Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy.open": "npx cypress open",
+    "cy.run": "npx cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rodrigo-Tozatti/Modulo-22-BDD-Cucumber-02.git"
+  },
+  "author": "Rodrigo Tozatti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rodrigo-Tozatti/Modulo-22-BDD-Cucumber-02/issues"
+  },
+  "homepage": "https://github.com/Rodrigo-Tozatti/Modulo-22-BDD-Cucumber-02#readme",
+  "dependencies": {
+    "cypress": "^12.11.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}

@@ -3,7 +3,7 @@ Feature: Painel Administrador
     Scenario Outline: Acessar painel do Administrador
         Dado que eu acessar o site EBAC Shop
         Quando eu logar com o usuário "<usuário>" e a senha "<usuário>"
-        Então o painel do administrador deve ficar visivel
+        Entao o painel do administrador deve ficar visivel
 
         Examples:
             | usuario | senha                    |
